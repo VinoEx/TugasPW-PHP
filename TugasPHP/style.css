@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #FFEB3B; /* Warna latar belakang */
+}
+
+.header {
+    background-color: #D32F2F; /* Warna header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    background-color: #FF5722; /* Warna navbar */
+    color: white;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #FFC107; /* Warna hover */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: #FFFFFF; /* Warna card */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: #FF5722; /* Warna card header */
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #D32F2F; /* Warna tombol */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #FF5722; /* Warna hover tombol */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.table thead {
+    background-color: #FF5722; /* Warna header tabel */
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #FFCCBC; /* Warna hover tabel */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.footer {
+    background-color: #FF5722; /* Warna footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
